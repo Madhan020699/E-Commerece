@@ -1,0 +1,104 @@
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-image {
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+    display: block;
+}
+
+.header-container {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-Logo-section {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+}
+
+.company-Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.company-Name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 10;
+    /* text-transform: uppercase; */
+}
+
+.options-Deatils {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 2;
+}
+
+.options-Deatils select, .options-Deatils select:hover{
+    border: none;
+    background-color: white;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 30px;
+}
+
+.menu-bar a {
+    color: black;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.cotes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.cotes-container :first-child {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.cotes-container :nth-child(2) {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
