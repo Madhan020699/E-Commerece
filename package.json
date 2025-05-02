@@ -1,7 +1,6 @@
 {
+  "private": true,
   "dependencies": {
-    "lite-server": "^2.6.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@vercel/edge": "^0.1.2"
   }
 }

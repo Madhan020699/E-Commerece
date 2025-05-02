@@ -1,11 +1,11 @@
-import {createRoot} from "react-dom/client";
-
-const productsApp = () => {
+const ProductsApp = () => {
     return (
-        <div>Product</div>
+        <div>
+            <h1>Product</h1>
+        </div>
     );
-}
+};
 
 const domNode = document.getElementById("productSection");
-const root = createRoot(domNode);
-root.render(productsApp);
+const root = ReactDOM.createRoot(domNode);
+root.render(ProductsApp);
